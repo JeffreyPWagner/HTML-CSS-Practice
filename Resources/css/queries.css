@@ -6,7 +6,10 @@
     }
     
     .row { padding: 0 2%; }
+    
+    .plan-box li { font-size: 90%; }
 }
+
 
 /* tablets from 768 to 1023px */
 @media only screen and (max-width: 1023px){
@@ -29,10 +32,8 @@
     
     .icon-small {
         width: 17px; 
-        margin-right: 10px;
+        margin-right: 5px;
     }
-    
-    .city-features { font-size: 90%;}
     
     .plan-box {
         width: 100%;
@@ -42,6 +43,8 @@
     .plan-price { font-size: 250%; }
     
     .contact-form { width: 80% }
+    
+    .city-feature { font-size: 90%;}
 }
 
 /* phones and tablets from 481 to 767px */
@@ -81,6 +84,20 @@
     
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
+    
+    .box img { 
+        width: 60%;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+    
+    .city-feature { margin-left: 28%; }
+    
+    .section-cities h3 {
+        text-align: center; 
+        margin-bottom: 10px;
+    }
+    
 }
 
 /* small phones from 0 to 480px */
