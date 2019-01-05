@@ -46,4 +46,25 @@ $(document).ready(function(){
     },{
         offset: '50%'
     });
+    
+    /* Mobile nav */
+    
+    var menuIconVis = true;
+    
+    $('.js-nav-icon').click(function(){
+        var nav = $('.js-main-nav');
+        var icon = $('.js-nav-icon');
+        
+        nav.slideToggle(200);
+        if (menuIconVis) {
+            $('.js-nav-menu').hide();
+            $('.js-nav-close').show();
+            menuIconVis = false;
+        }
+        else {
+            $('.js-nav-close').hide();
+            $('.js-nav-menu').show();
+            menuIconVis = true;
+        }
+    });    
 });
